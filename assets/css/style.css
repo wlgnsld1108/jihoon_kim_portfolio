@@ -1,3 +1,7 @@
+@charset "utf=8";
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500;600;700;800;900&display=swap');
+
 /**
 * Template Name: iPortfolio - v3.3.0
 * Template URL: https://bootstrapmade.com/iportfolio-bootstrap-portfolio-websites-template/
@@ -8,8 +12,12 @@
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
+html {
+  font-size: 62.5%;
+}
+
 body {
-  font-family: "Open Sans", sans-serif;
+  font-family: 'Open Sans', sans-serif;
   color: #272829;
 }
 
@@ -45,7 +53,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .back-to-top i {
-  font-size: 28px;
+  font-size: 3.5rem;
   color: #fff;
   line-height: 0;
 }
@@ -95,9 +103,6 @@ h1, h2, h3, h4, h5, h6 {
 # Navigation Menu
 --------------------------------------------------------------*/
 /* Desktop Navigation */
-.nav-menu {
-}
-
 .nav-menu * {
   margin: 0;
   padding: 0;
@@ -120,6 +125,21 @@ h1, h2, h3, h4, h5, h6 {
   padding: 0 15px;
   transition: 0.3s;
   font-size: 15px;
+}
+.nav-menu a span::after, .nav-menu a:focus span::after {
+  content: "";
+  display: block;
+  width: 0;
+  height: 2px;
+  background: limegreen;
+  transition: all .3s;
+}
+.nav-menu a:hover span::after, .nav-menu a:focus span::after {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 2px;
+  background: limegreen;
 }
 
 .nav-menu a i, .nav-menu a:focus i {
