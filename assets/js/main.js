@@ -7,6 +7,10 @@
 (function() {
   "use strict";
 
+  window.onload = function() {
+    document.getElementById('loading_bg').style.display = 'none';
+  };
+
   /**
    * Easy selector helper function
    */
