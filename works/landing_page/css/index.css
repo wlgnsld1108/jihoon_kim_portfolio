@@ -1,0 +1,207 @@
+* { margin: 0; padding: 0; vertical-align: top; }
+li { list-style: none; }
+a { text-decoration: none; }
+img { border: 0; max-width: 100%; }
+body { font-family: 'Noto Sans KR', sans-serif; background: #f9f9f9; letter-spacing: -1px; overflow-x: hidden; }
+html { overflow-x: hidden; }
+/* pohang, andong, daegu, gangneung, gyeongju, yeongcheon, jeju, masan */
+
+header { width: 100%; }
+.scroll_top { width: 970px; margin: 0 auto; padding: 20px 0; background: dodgerblue; text-align: center; }
+.scroll_top a { display: block; font-size: 18px; color: #fff; font-weight: 400; }
+
+.contents { width: 970px; margin: 0 auto; background: #fff; }
+.title_wrap { position: relative; width: 970px; height: 500px; background: url("http://denfice01.cdn3.cafe24.com/ad/andong/title_bg.png") no-repeat 50% 50%; }
+.title_text { position: absolute; top: 145px; left: 85px; }
+.title_pohang, .title_andong, .title_daegu, .title_gangneung, .title_gyeongju, .title_yeongcheon, .title_jeju, .title_masan, .title_jecheon { font-size: 27px; font-weight: 500; color: #727171; }
+.title { font-size: 100px; font-family: ghanachoco; color: #fff; }
+.article_pohang, .article_andong, .article_daegu, .article_gangneung, .article_gyeongju, .article_yeongcheon, .article_jeju, .article_masan, .article_jecheon { font-size: 24px; font-weight: 300; color: #fff; }
+.article { font-size: 48px; font-family: ghanachoco; color: #6987B0; }
+
+.system_wrap { background: #efefef; }
+.system_text { text-align: center; padding-top: 90px; }
+.system_title { font-size: 55px; font-family: ghanachoco; color: #DCDDDD; }
+.system_pohang, .system_andong, .system_daegu, .system_gangneung, .system_gyeongju, .system_yeongcheon, .system_jeju, .system_masan, .system_jecheon { font-size: 36px; font-weight: 600; color: #727171; }
+.system_article { font-size: 22px; font-weight: 300;  color: #B5B6B6; }
+
+.system_step { width: 685px; margin: 75px auto 0 auto; padding-bottom: 100px; }
+.system_step_bar { text-align: center; overflow: hidden; }
+.anesthetic_cream { margin-left: 65px; margin-right: 45px; float: left; }
+.anesthetic_goggle { margin-right: 45px; float: left; }
+.painless_anesthesia { float: left; }
+
+.m_system_step { display: none; }
+.m_system_step_bar { display: none; }
+.m_anesthetic_cream { display: none; }
+.m_anesthetic_goggle { display: none; }
+.m_painless_anesthesia { display: none; }
+
+.check_point_wrap { background: url("http://denfice01.cdn3.cafe24.com/ad/check_point_bg.png"); }
+.check_point_text { text-align: center; padding-top: 85px; }
+.check_point_title { font-size: 55px; font-family: ghanachoco; color: #fff; opacity: 0.4; }
+.check_point_pohang, .check_point_andong, .check_point_daegu, .check_point_gangneung, .check_point_gyeongju, .check_point_yeongcheon, .check_point_jeju, .check_point_masan, .check_point_jecheon
+{ font-size: 36px; font-weight: 300; color: #727171; }
+.check_point_article { font-size: 43px; font-weight: 600; color: #727171; padding-bottom: 70px; }
+
+.check_point_box { width: 800px; height: 680px; margin: 0 auto; background: url("http://denfice01.cdn3.cafe24.com/ad/check_box_bg.png") no-repeat 50% 50%; }
+.check_point_box_text { padding-left: 90px; padding-top: 70px; }
+.check_point_recommend { font-size: 32px; font-weight: 300; margin-bottom: 40px; color: #727171; }
+.check_point_recommend b { margin-left: 20px; font-weight: 500; color: #6987B0; }
+
+.check_point_btm { padding: 65px 0 85px 0; text-align: center; color: #fff; font-weight: 500; }
+.check_point_btm_text { font-size: 30px; }
+.check_point_btm_pohang, .check_point_btm_andong, .check_point_btm_daegu, .check_point_btm_gangneung, .check_point_btm_gyeongju, .check_point_btm_yeongcheon, .check_point_btm_jeju, .check_point_btm_masan, .check_point_btm_jecheon { font-size: 37px; }
+
+.genuine_wrap { background: #fff; }
+.genuine_text { text-align: center; padding-top: 125px; }
+.genuine_pohang, .genuine_andong, .genuine_daegu, .genuine_gangneung, .genuine_gyeongju, .genuine_yeongcheon, .genuine_jeju, .genuine_masan, .genuine_jecheon
+{ font-size: 36px; font-weight: 300; color: #727171; margin-bottom: 15px; }
+.genuine_title { font-size: 42px; color: #6987B0; font-weight: 600; margin-bottom: 40px; }
+.genuine_article { font-size: 25px; font-weight: 300; color: #9FA0A0; margin-bottom: 45px; }
+
+.genuine_box { width: 740px; margin: 50px auto 145px auto; background: #6987B0; padding: 30px 0; overflow: hidden; }
+.genuine_1 { margin: 0 70px; float: left; }
+.genuine_2 { margin-right: 70px; float: left; }
+.genuine_3 { float: left; }
+
+.input_title { text-align: center; font-size: 24px; color: dodgerblue; margin: 50px 0 30px 0; }
+
+label { padding: 5px 100px 5px 0; border-right: 1px solid #b5b5b5; position: relative; }
+.form_box { padding: 15px 0; border: 1px solid #b5b5b5; text-indent: 15px; margin-top: 10px; } 
+.necessary { font-size: 10px; color: red; position: absolute; top: 10px; text-indent: 5px; }
+
+.form_number { padding: 15px 0; border: 1px solid #b5b5b5; text-indent: 15px; margin-top: 10px; } 
+.form_number > input { text-indent: 0; text-align: left; text-indent: 15px; }
+
+input { text-indent: 15px; border: none; padding: 2px 1% 3px 0; font-size: 16px; }
+
+input:focus {outline:none;}
+select:focus {outline:none;}
+button:focus {outline:none;}
+
+select { border:0; padding:0; background:transparent; cursor:pointer; *overflow:visible; }
+
+input[type=number]::-webkit-outer-spin-button{-webkit-appearance: none;margin: 0;}
+
+input[type=number]::-webkit-inner-spin-button{-webkit-appearance: none;margin: 0;}
+.checkbox > label { border: none; }
+
+.checkbox { margin-top: 15px; }
+
+select { margin-left: 10px; font-size: 16px; border: 0; color: #666; }
+
+.dnx-form-phone { width: 60px; }
+
+.form_address { padding: 15px 0; border: 1px solid #b5b5b5; text-indent: 15px; margin-top: 10px; }
+
+.form_address > select { width: 60px; }
+
+.sublabel { margin-left: 10px; }
+.sublabel a { font-size: 14px; color: #000; }
+.event_button { background: dodgerblue; border: 0; width: 970px; line-height: 30px; margin: 30px 0; color: #fff; font-size: 20px; cursor: pointer; }
+
+#scrollup { position: fixed; bottom: 20px; right: 20px; z-index: 99; }
+
+#scrollup_m { display: none; position: fixed; bottom: 20px; right: 20px; z-index: 99; }
+
+footer { width: 970px; margin: 0 auto; text-align: center; padding: 5px 0 30px; font-size: 14px; color: #999; }
+address { font-style: normal; }
+.footer_text { margin-top: 10px; }
+
+@media screen and (max-width: 600px) {
+	.scroll_top { width: 100%; }
+
+	.contents { width: 100%; }
+	
+	.title_wrap { position: static; width: 100%; }
+	.title_text { position: static; text-align: center; padding-top: 80px;}
+	
+	.system_step { width: 85%; }
+	.system_pohang, .system_andong, .system_daegu, .system_gangneung, .system_gyeongju, .system_yeongcheon, .system_jeju, .system_masan, .system_jecheon { font-size: 30px; }
+	.system_article { font-size: 20px; }
+	
+	.system_step { display: none; }
+	.system_step_bar { display: none; }
+	.anesthetic_cream { display: none; }
+	.anesthetic_goggle { display: none; }
+	.painless_anesthesia { display: none; }
+	
+	.m_system_step { display: block; width: 100%; height: 750px; }
+	.m_system_step_bar { display: block; position: relative; top: 30px; left: 10px; z-index: 9999; }
+	.m_anesthetic_cream { display: block; width: 175px; position: absolute; top: 65px; left: 115px; z-index: 777; }
+	.m_anesthetic_goggle { display: block; width: 175px; position: absolute; top: 277px; left: 115px; z-index: 888; }
+	.m_painless_anesthesia { display: block; width: 175px; position: absolute; top: 480px; left: 115px; z-index: 999; }
+	
+	.check_point_title { font-size: 50px; }
+	.check_point_pohang, .check_point_andong, .check_point_daegu, .check_point_gangneung, .check_point_gyeongju, .check_point_yeongcheon, .check_point_jeju, .check_point_masan, .check_point_jecheon
+	{ font-size: 30px; }
+	.check_point_article { font-size: 38px; }
+	
+	.check_point_box { width: 90%; background-position: 100%; }
+	.check_point_box_text { padding-left: 5%; }
+	.check_point_recommend { font-size: 20px; margin-bottom: 30px; }
+	.check_point_recommend b { margin-left: 10px; }
+
+	.check_point_btm { padding: 65px 0 85px 0; }
+	.check_point_btm_text { font-size: 20px; }
+	.check_point_btm_pohang, .check_point_btm_andong, .check_point_btm_daegu, .check_point_btm_gangneung, .check_point_btm_gyeongju, .check_point_btm_yeongcheon, .check_point_btm_jeju, .check_point_btm_masan, .check_point_btm_jecheon { font-size: 26px; }
+	
+	.genuine_pohang, .genuine_andong, .genuine_daegu, .genuine_gangneung, .genuine_gyeongju, .genuine_yeongcheon, .genuine_jeju, .genuine_masan, .check_point_btm_jecheon
+	{ font-size: 28px; }
+	.genuine_title { font-size: 32px; margin-bottom: 30px; }
+	.genuine_article { font-size: 22px; margin-bottom: 35px; }
+	
+	.genuine_box { width: 100%; margin: 50px auto 145px auto; background: #6987B0; padding: 30px 0; overflow: hidden; text-align: center; }
+	.genuine_1 { width: 100%; margin: 0; margin-bottom: 30px; float: none; }
+	.genuine_2 { width: 100%; margin-right: 0; margin-bottom: 30px; float: none; }
+	.genuine_3 { width: 100%; float: none; }
+	
+	input { font-size: 12px; }
+	
+	label { font-size: 13px; padding-right: 5%; }
+	
+	select { margin-left: 1%; font-size: 12px; }
+	
+	.sublabel { margin-left: 1%; }
+	.sublabel a { font-size: 13px; }
+	
+	.event_button { width: 100%; font-size: 16px; }
+	footer { width: 100%; font-size: 12px; }
+	}
+
+@media screen and (max-width: 480px){
+    .title_wrap { height: 370px; }
+
+	.title_pohang, .title_andong, .title_daegu, .title_gangneung, .title_gyeongju, .title_yeongcheon, .title_jeju, .title_masan, .title_jecheon { font-size: 22px; }
+	.title { font-size: 70px; }
+	.article_pohang, .article_andong, .article_daegu, .article_gangneung, .article_gyeongju, .article_yeongcheon, .article_jeju, .article_masan, .article_jecheon { font-size: 18px; }
+	.article { font-size: 40px; margin-top: 5px; }
+	
+    .system_title { font-size: 44px; }
+	.system_pohang, .system_andong, .system_daegu, .system_gangneung, .system_gyeongju, .system_yeongcheon, .system_jeju, .system_masan, .system_jecheon { font-size: 20px; }
+	.system_article { font-size: 14px; margin-top: 5px; }
+	
+	.system_step { display: none; }
+	.system_step_bar { display: none; }
+	.anesthetic_cream { display: none; }
+	.anesthetic_goggle { display: none; }
+	.painless_anesthesia { display: none; }
+	.check_point_box { width: 100%; }
+	
+    .check_point_text { padding-top: 60px; }
+	.check_point_title { font-size: 40px; }
+	.check_point_pohang, .check_point_andong, .check_point_daegu, .check_point_gangneung, .check_point_gyeongju, .check_point_yeongcheon, .check_point_jeju, .check_point_masan, .check_point_jecheon
+	{ font-size: 20px; margin-top: 5px; }
+	.check_point_article { font-size: 28px; }
+	
+	.check_point_recommend { font-size: 17px; }
+
+	.check_point_btm_text { font-size: 16px; }
+	.check_point_btm_pohang, .check_point_btm_andong, .check_point_btm_daegu, .check_point_btm_gangneung, .check_point_btm_gyeongju, .check_point_btm_yeongcheon, .check_point_btm_jeju, .check_point_btm_masan, .check_point_btm_jecheon { font-size: 20px; margin-top: 5px; }
+	
+	.genuine_pohang, .genuine_andong, .genuine_daegu, .genuine_gangneung, .genuine_gyeongju, .genuine_yeongcheon, .genuine_jeju, .genuine_masan, .genuine_jecheon
+	{ font-size: 22px; }
+	.genuine_title { font-size: 22px; }
+	.genuine_article { font-size: 16px; }
+
+}

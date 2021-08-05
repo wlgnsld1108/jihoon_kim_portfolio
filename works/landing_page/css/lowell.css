@@ -1,0 +1,234 @@
+* { margin: 0; padding: 0; vertical-align: top; }
+li { list-style: none; }
+a { text-decoration: none; }
+img { border: 0; max-width: 100%;}
+body { font-family: 'Noto Sans KR', sans-serif; background: #f9f9f9; letter-spacing: -1px; overflow-x: hidden; }
+html { overflow-x: hidden; font-size: 16px;}
+/* pohang, andong, daegu, gangneung, gyeongju, yeongcheon, jeju, masan */
+
+header { width: 100%; }
+
+.contents { width: 970px; margin: 0 auto; background: #fff; }
+.title_wrap { position: relative; width: 970px; height: 500px; background: url("http://denfice01.cdn3.cafe24.com/ad/lowell/lowell_title_bg.png") no-repeat 50% 50%; }
+.title_text { position: absolute; top: 130px; left: 155px; }
+.title_lowell { font-size: 7rem; font-family: THELuxGoEB_UA; color: #fff; }
+.article_lowell { font-size: 1.3rem; font-family: THELuxGoL_UA; color: #fff; margin-top: -16px;}
+.article_lowell_dent { font-size: 3.2rem; font-family: THELuxGoEB_UA; color: #edcc9b; }
+.lowell_dentist_one {height:800px; position:relative; background: url("http://denfice01.cdn3.cafe24.com/ad/lowell/lowell_dentist1.png") no-repeat 50% 50%;}
+.lowell_dentist_one img {display:none;}
+.dentist_comment {position:absolute;top:60px;left:50px;font-family: THELuxGoEB_UA;text-align: center;line-height:3rem;}
+.comment_title {font-size:2rem;color:#768096;}
+.comment_title span {font-size:3.2rem;vertical-align: baseline;}
+.comment_article {font-size:1.6rem;color:#c3c9d2;}
+
+.dentistry {padding:80px 0;background:#768096;text-align: center; color:#fff;}
+.dentistry p {font-size:1.6rem;font-family: THELuxGoL_UA;color:#c3c9d2;margin:50px 0 80px 0}
+.dentistry p > span {font-family: THELuxGoEB_UA;color:#fff;}
+.certificate {width:600px;height:400px;margin:auto;}
+
+.implant {text-align: center;padding:80px 0;}
+.implant ul {display: inline-flex;margin-top:70px;}
+.implant ul li {margin:0 30px;}
+.implant ul li p {color:#748098;font-size:1.6rem;font-family: THELuxGoEB_UA;margin-top:10px;}
+.implant ul li p:nth-child(3) {color:#929292;font-size:1.2rem;font-family: THELuxGoRA;}
+
+.certified_genuine_one {height:415px;background: url("http://denfice01.cdn3.cafe24.com/ad/lowell/certified_genuine1.png") no-repeat center;color:#fff;text-align: center;}
+.certified_genuine {font-size:1.4rem;font-family: THELuxGoRA;opacity:0.6;padding-top: 40px;}
+.certified_genuine_title {font-size:3.2rem;font-family: ghanachoco;margin-top: 5px;}
+.certified_genuine_article {font-size:1.6rem;font-family: THELuxGoRA;margin-top: 55px;}
+
+.video_wrap {width: 775px; margin:120px auto; height: 490px;text-align: center;color:#768096;font-size:1.4rem;}
+
+.benefits {background:#b2c0c8;text-align: center;color:#fff;padding:50px 0;}
+.up_down_wrap {position:relative;height:350px;}
+.m_up_down {display: none;}
+.down {position:absolute;top:30px;left:160px;color:#6493ba;font-size:1.8rem;font-family: THELuxGoEB_UA;}
+.down::after {content:url("http://denfice01.cdn3.cafe24.com/ad/lowell/down.png");vertical-align: middle;margin-left:-30px;}
+.up {position:absolute;top:30px;right:120px;}
+.benefits p {font-size:1.8rem;font-family: THELuxGoL_UA;}
+.benefits p > span {font-size:1.8rem;font-family: THELuxGoEB_UA;}
+
+.lowell_dentist_two {height:760px; position:relative; background: url("http://denfice01.cdn3.cafe24.com/ad/lowell/lowell_dentist2.png") no-repeat 50% 50%;}
+.lowell_dentist_two img {display: none;}
+
+.bracket_wrap {text-align:center;padding:70px 0;}
+.bracket_flex {display: flex;justify-content: center;flex-wrap: wrap;padding-top:30px;}
+
+.bracket {flex: 0 0 calc(33%);margin-top:50px;}
+.bracket_title {font-size:1.8rem;font-family: THELuxGoEB_UA; margin-top: 10px; color:#748098;}
+.bracket_article {font-size:1.2rem;font-family: THELuxGoRA; margin-top: 10px; color:#929292;}
+
+.orthodontics {background:#d0e2ea;padding:80px 0 50px 0;text-align: center;}
+.orthodontics p {font-size:1.6rem;font-family: THELuxGoL_UA;margin-top:20px;color:#939393;}
+.orthodontics p span {font-family: THELuxGoEB_UA;}
+.diagnosis_wrap {display:flex;justify-content: center; flex-wrap: wrap; margin-top:60px;}
+.diagnosis {margin:0 50px;}
+.diagnosis p {font-size:1.2rem; font-family: THELuxGoRA;color:#6177a8;}
+
+.certified_genuine_two {height:487px;background: url("http://denfice01.cdn3.cafe24.com/ad/lowell/certified_genuine2.png") no-repeat 50% 50%;color:#fff;text-align: center;}
+
+.landing_finish {text-align:center;margin-top:60px;}
+.landing_finish p {font-size:2.8rem;font-family: THELuxGoEB_UA;color:#768096;}
+.landing_finish p:nth-child(2) {font-size:2.2rem;font-family: THELuxGoRA;color:#b2c0c8;margin:2rem 0;}
+.landing_finish p:nth-child(2) span {font-family: THELuxGoEB_UA;}
+
+.input_title { text-align: center; font-size: 24px; color: #768096; margin: 50px 0 30px 0; }
+
+label { padding: 5px 100px 5px 0; border-right: 1px solid #b5b5b5; position: relative; }
+.form_box { padding: 15px 0; border: 1px solid #b5b5b5; text-indent: 15px; margin-top: 10px; } 
+.necessary { font-size: 10px; color: red; position: absolute; top: 10px; text-indent: 5px; }
+
+.form_number { padding: 15px 0; border: 1px solid #b5b5b5; text-indent: 15px; margin-top: 10px; } 
+.form_number > input { text-indent: 0; text-align: left; text-indent: 15px; }
+
+input { text-indent: 15px; border: none; padding: 2px 1% 3px 0; font-size: 16px; }
+
+input:focus {outline:none;}
+select:focus {outline:none;}
+button:focus {outline:none;}
+
+select { border:0; padding:0; background:transparent; cursor:pointer; *overflow:visible; }
+
+input[type=number]::-webkit-outer-spin-button{-webkit-appearance: none;margin: 0;}
+
+input[type=number]::-webkit-inner-spin-button{-webkit-appearance: none;margin: 0;}
+.checkbox > label { border: none; }
+
+.checkbox { margin-top: 15px; }
+
+select { margin-left: 10px; font-size: 16px; border: 0; color: #666; }
+
+.dnx-form-phone { width: 60px; }
+
+.form_address { padding: 15px 0; border: 1px solid #b5b5b5; text-indent: 15px; margin-top: 10px; }
+
+.form_address > select { width: 60px; }
+
+.sublabel { margin-left: 10px; }
+.sublabel a { font-size: 14px; color: #000; }
+.event_button { background: #768096; border: 0; width: 970px; line-height: 30px; margin: 30px 0; color: #fff; font-size: 20px; cursor: pointer; }
+
+#scrollup { position: fixed; bottom: 20px; right: 20px; z-index: 99; }
+
+#scrollup_m { display: none; position: fixed; bottom: 20px; right: 20px; z-index: 99; }
+
+
+footer { width: 970px; margin: 0 auto; text-align: center; padding: 5px 0 30px; font-size: 14px; color: #999; }
+address { font-style: normal; }
+.footer_text { margin-top: 10px; }
+@media screen and (max-width: 600px) {
+    .contents {width:100%;}
+    .title_wrap { width: 100%;height:450px;}
+    .title_text { position: absolute; top: 140px; left: 10%; }
+    .title_lowell { font-size: 6rem;}
+    .article_lowell { font-size: 1.2rem; margin-top: -16px;}
+    .article_lowell_dent { font-size: 2.8rem; }
+    .lowell_dentist_one {height:auto;background:none;padding-top:3rem;}
+    .lowell_dentist_one img {display:block;}
+    .dentist_comment {display:none;}
+    .comment_title {font-size:2rem;color:#768096;}
+    .comment_title span {font-size:3.2rem;vertical-align: baseline;}
+    .comment_article {font-size:1.6rem;color:#c3c9d2;}
+
+    .dentistry {padding:50px 5%;}
+    .dentistry br {display:none;}
+    .dentistry p {font-size:1.4rem;margin:30px 0 50px 0}
+    .certificate {width:100%;height:auto;}
+
+    .implant {text-align: center;padding:80px 0;}
+    .implant ul {flex-wrap: wrap; margin-top:70px;}
+    .implant ul li {margin:30px 0; width:100%;}
+    .implant ul li p {color:#748098;font-size:1.6rem;font-family: THELuxGoEB_UA;margin-top:10px;}
+    .implant ul li p:nth-child(3) {color:#929292;font-size:1.2rem;font-family: THELuxGoRA;}
+
+    .certified_genuine_one {padding:0 5%;height:325px;background: url("http://denfice01.cdn3.cafe24.com/ad/lowell/certified_genuine1.png") no-repeat 50%;}
+    .certified_genuine {padding-top: 20px;margin-top:20px;}
+    .certified_genuine_title {font-size:2.4rem;margin-top:15px;}
+    .certified_genuine_article {font-size:1.2rem;margin-top: 25px;}
+
+    .video_wrap {width: 90%; margin:60px auto; height: auto;font-size:1.2rem;}
+
+    .benefits {padding:5%;}
+    .up_down_wrap {position:relative;height:auto;padding:5% 0;}
+    .m_up_down {display: block;}
+    .down {display: none;}
+    .down::after {content:url("http://denfice01.cdn3.cafe24.com/ad/lowell/down.png");vertical-align: middle;margin-left:-30px;}
+    .up {display: none;}
+    .benefits p {font-size:1.2rem;font-family: THELuxGoL_UA;}
+    .benefits p > span {font-size:1.2rem;font-family: THELuxGoEB_UA;}
+
+    .lowell_dentist_two {height:auto; background: none;padding-top:5%;}
+    .lowell_dentist_two img {display: block;}
+
+    .bracket_wrap {text-align:center;padding:70px 0;}
+    .bracket_flex {display: flex;justify-content: center;flex-wrap: wrap;padding-top:30px;}
+
+    .bracket {flex: 0 0 calc(40%);margin: 10px;}
+    .bracket_title {font-size:1.6rem;font-family: THELuxGoEB_UA; margin-top: 10px; color:#748098;}
+    .bracket_article {font-size:1rem;font-family: THELuxGoRA; margin-top: 10px; color:#929292;}
+    
+    .orthodontics {padding:50px 5%;}
+    .orthodontics p {font-size:1.4rem;}
+    .orthodontics br {display:none;}
+    .diagnosis_wrap {margin-top:40px;}
+    .diagnosis {margin-top:3rem;}
+    .diagnosis p {font-size:1.2rem;}
+    
+    .certified_genuine_two {padding:0 5%;height:275px;background: url("http://denfice01.cdn3.cafe24.com/ad/lowell/certified_genuine2.png") no-repeat 50%;}
+
+    .landing_finish {margin-top:35px;padding:0 5%;}
+    .landing_finish p {font-size:2.2rem;font-family: THELuxGoEB_UA;color:#768096;}
+    .landing_finish p:nth-child(2) {font-size:1.6rem;font-family: THELuxGoRA;color:#b2c0c8;margin:2rem 0;}
+    .landing_finish p:nth-child(2) span {font-family: THELuxGoEB_UA;}
+    
+    input { font-size: 12px; }
+	
+	label { font-size: 13px; padding-right: 5%; }
+	
+	select { margin-left: 1%; font-size: 12px; }
+	
+	.sublabel { margin-left: 1%; }
+	.sublabel a { font-size: 13px; }
+	
+	.event_button { width: 100%; font-size: 16px; }    
+	footer { width: 100%; font-size: 12px; }
+	}
+
+@media screen and (max-width: 440px) {
+    .title_wrap { width: 100%;height:350px;}
+    .title_text { position: absolute; top: 100px; left: 10%; }
+    .title_lowell { font-size: 4.4rem;}
+    .article_lowell { font-size: 1rem; margin-top: 0;}
+    .article_lowell_dent { font-size: 2rem; }
+    .lowell_dentist_one {padding-top:1rem;}
+
+    .dentistry {padding:30px 5%;}
+    .dentistry p {font-size:1.2rem;margin:15px 0 25px 0}
+
+    .certified_genuine {padding-top: 50px;margin-top:20px;}
+    .certified_genuine_title {font-size:1.6rem;margin-top:15px;}
+    .certified_genuine_article {font-size:1.1rem;margin-top: 25px;}
+
+    .video_wrap {width: 90%; margin:40px auto; height: auto;font-size:1rem;}
+
+    .benefits p {font-size:1rem;}
+    .benefits p > span {font-size:1rem;}
+
+    .bracket_wrap {padding:45px 0;}
+    .bracket_flex {display: block;padding-top:15px;}
+
+    .bracket {margin: 30px;}
+    .bracket_title {font-size:1.6rem;}
+    .bracket_article {font-size:1rem;}
+
+    .orthodontics {padding:50px 5%;}
+    .orthodontics p {font-size:1.2rem;}
+    .diagnosis_wrap {margin-top:30px;}
+    .diagnosis {margin-top:2rem;}
+    .diagnosis p {font-size:1rem;}
+    
+    .landing_finish {margin-top:35px;}
+    .landing_finish p {font-size:1.8rem;}
+    .landing_finish p:nth-child(2) {font-size:1.4rem;margin:1.5rem 0;}
+    
+}
