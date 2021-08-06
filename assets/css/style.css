@@ -81,17 +81,23 @@ h1, h2, h3, h4, h5, h6 {
   z-index: 9997;
   transition: all 0.5s;
   padding: 0 15px;
-  background: rgba(0, 0, 0, 0.4);
+  background: rgba(0, 0, 0, 0.3);
   clip-path: ellipse(55% 100% at 50% 0);
-  animation: wave 2s linear alternate infinite;
+  animation: wave 8s linear alternate infinite;
 }
 
 @keyframes wave {
-  50% {
+  25% {
     clip-path: ellipse(70% 55% at 50% 40%);
   }
+  50% {
+    clip-path: ellipse(90% 70% at 50% 15%);
+  }
+  75% {
+    clip-path: ellipse(60% 85% at 50% 30%);
+  }
   100% {
-    clip-path: ellipse(90% 80% at 50% 30%);
+    clip-path: ellipse(80% 60% at 50% 25%);
   }
 }
 
