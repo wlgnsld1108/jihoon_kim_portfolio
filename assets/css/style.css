@@ -334,6 +334,12 @@ section {
   opacity: 0;
 }
 
+.portfolio .portfolio-wrap .img-fluid {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+}
+
 .portfolio .portfolio-wrap .portfolio-links {
   opacity: 0;
   left: 0;
@@ -461,7 +467,7 @@ section {
 
 .contact .info i {
   font-size: 20px;
-  color: #149ddd;
+  color: #20B2AA;
   float: left;
   width: 44px;
   height: 44px;
@@ -478,14 +484,14 @@ section {
   font-size: 22px;
   font-weight: 600;
   margin-bottom: 5px;
-  color: #050d18;
+  color: #222;
 }
 
 .contact .info p {
   padding: 0 0 10px 60px;
   margin-bottom: 20px;
   font-size: 14px;
-  color: #173b6c;
+  color: #333;
 }
 
 .contact .info .email p {
@@ -511,13 +517,8 @@ section {
   margin-right: 10px;
 }
 
-.contact .info .social-links a:hover {
-  background: limegreen;
-  color: #fff;
-}
-
 .contact .info .email:hover i, .contact .info .address:hover i, .contact .info .phone:hover i {
-  background: limegreen;
+  background: #20B2AA;
   color: #fff;
 }
 
@@ -525,7 +526,7 @@ section {
   width: 100%;
   padding: 30px;
   background: #fff;
-  box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.12);
+  box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.4);
   border-radius: 20px;
 }
 
@@ -606,7 +607,7 @@ section {
 }
 
 .contact .php-email-form button[type="submit"] {
-  background: limegreen;
+  background: #20B2AA;
   border: 0;
   padding: 10px 24px;
   color: #fff;
@@ -615,7 +616,7 @@ section {
 }
 
 .contact .php-email-form button[type="submit"]:hover {
-  background: #28a428;
+  background: #3CB371;
 }
 
 @-webkit-keyframes animate-loading {
