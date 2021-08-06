@@ -264,7 +264,7 @@ section {
 .about .progress-bar-wrap {
   background: #fff;
   height: 10px;
-  border-radius: 30px;
+  border-radius: 20px;
 }
 
 .about .progress-bar {
@@ -272,7 +272,7 @@ section {
   height: 10px;
   transition: .9s;
   background-color: #006400;
-  border-radius: 30px;
+  border-radius: 20px;
 }
 
 /*--------------------------------------------------------------
@@ -317,7 +317,7 @@ section {
   transition: 0.3s;
   position: relative;
   overflow: hidden;
-  border-radius: 30px;
+  border-radius: 20px;
   z-index: 1;
 }
 
@@ -456,7 +456,7 @@ section {
   background: #fff;
   width: 100%;
   box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.12);
-  border-radius: 30px;
+  border-radius: 20px;
 }
 
 .contact .info i {
@@ -526,7 +526,7 @@ section {
   padding: 30px;
   background: #fff;
   box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.12);
-  border-radius: 30px;
+  border-radius: 20px;
 }
 
 .contact .php-email-form .form-group {
