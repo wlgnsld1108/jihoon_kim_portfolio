@@ -1,0 +1,26 @@
+@charset "utf-8";
+/* CSS Document */
+
+@font-face {
+	font-family: hdhb;
+	src: local('현대하모니'),
+	url('../fonts/현대하모니+B.eot'),
+	url('../fonts/HDharmonyB.ttf'),
+	url('../fonts/HDharmonyB.woff')
+}
+
+@font-face {
+	font-family: hdhl;
+	src: local('현대하모니'),
+	url('../fonts/현대하모니+L.eot'),
+	url('../fonts/HDharmonyL.ttf'),
+	url('../fonts/HDharmonyL.woff')
+}
+
+@font-face {
+	font-family: hdhm;
+	src: local('현대하모니'),
+	url('../fonts/현대하모니+M.eot'),
+	url('../fonts/HDharmonyM.ttf'),
+	url('../fonts/HDharmonyM.woff');
+}
