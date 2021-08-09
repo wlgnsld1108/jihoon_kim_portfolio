@@ -344,6 +344,10 @@ section {
 }
 
 @media screen and (max-width: 480px) {
+  #cursor-blob {
+    display: none;
+  }
+  
   .about {
     text-align: center;
   }
