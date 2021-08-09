@@ -162,6 +162,16 @@ h1, h2, h3, h4, h5, h6 {
   width: 100%;
 }
 
+@media screen and (max-width: 680px) {
+  #header {
+    height: 100px;
+  }
+  
+  .nav-menu a, .nav-menu a:focus {
+    margin: 5px 25px;
+  }
+}
+
 /*--------------------------------------------------------------
 # Hero Section
 --------------------------------------------------------------*/
@@ -215,6 +225,7 @@ section {
 .about .content ul li {
   margin-bottom: 20px;
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
   font-size: 1.6rem;
 }
@@ -273,6 +284,16 @@ section {
   transition: .9s;
   background-color: #006400;
   border-radius: 20px;
+}
+
+@media screen and (max-width: 480px) {
+  .about {
+    text-align: center;
+  }
+  
+  .about .content ul li i, strong, span {
+    width: 100%;
+  }
 }
 
 /*--------------------------------------------------------------
