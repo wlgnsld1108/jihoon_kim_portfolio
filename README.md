@@ -1,6 +1,6 @@
 ## 김지훈의 포트폴리오 입니다.
 ![toruskit com_tools_blobz_](https://user-images.githubusercontent.com/78772727/128680477-4f9b6c83-03b1-4e46-aa47-1c57c3c15ef6.png)
-###블롭즈 css를 이용했습니다.
+### 블롭즈 css를 이용했습니다.
 
 ![jihoon_kim_portfolio_index](https://user-images.githubusercontent.com/78772727/128680045-83aed67d-10c8-4617-97f8-194e21cbb6bf.png)
 
