@@ -387,16 +387,11 @@ section {
   transition: all 0.3s ease-in-out;
 }
 
-.portfolio #portfolio-flters li:hover, .portfolio #portfolio-flters li.filter-active {
-  color: limegreen;
-}
-
 .portfolio #portfolio-flters li:last-child {
   margin-right: 0;
 }
 
 .portfolio .portfolio-wrap {
-  transition: 0.3s;
   position: relative;
   overflow: hidden;
   border-radius: 20px;
@@ -428,7 +423,7 @@ section {
   left: 0;
   right: 0;
   top: 0;
-  bottom: -300px;
+  bottom: -100px;
   z-index: 3;
   position: absolute;
   transition: all ease-in-out 0.3s;
@@ -438,23 +433,30 @@ section {
 }
 
 .portfolio .portfolio-wrap .portfolio-links a {
-  color: #fff;
-  font-size: 28px;
-  text-align: center;
   background: rgba(0, 0, 0, .5);
-  transition: 0.3s;
-  width: 50px;
-  height: 50px;
+  width: 65px;
+  height: 65px;
+  line-height: 65px;
   border-radius: 50%;
+  transition: .3s;
+  color: #fff;
+  font-size: 2.8rem;
+  text-align: center;
+}
+
+.portfolio .portfolio-wrap .portfolio-links a:hover { 
+  transform: scale(8);
+  transition: .3s;
+}
+
+.portfolio .portfolio-wrap .portfolio-links a:hover i { 
+  opacity: 0;
+  transition: .5s;
 }
 
 .portfolio .portfolio-wrap:hover .img-fluid {
   transform: scale(1.1);
-  transition: 0.3s;
-}
-
-.portfolio .portfolio-wrap .portfolio-links a + a {
-  border-left: 1px solid #37b3ed;
+  transition: .3s;
 }
 
 .portfolio .portfolio-wrap:hover::before {
