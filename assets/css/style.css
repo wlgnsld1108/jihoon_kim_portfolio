@@ -445,7 +445,7 @@ section {
 }
 
 .portfolio .portfolio-wrap .portfolio-links a:hover { 
-  transform: scale(8);
+  transform: scale(6);
   transition: .3s;
 }
 
