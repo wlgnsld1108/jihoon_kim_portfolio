@@ -159,9 +159,18 @@ h1, h2, h3, h4, h5, h6 {
 #header .git_icon {
   align-self: center;
 }
+
 #header .git_icon a {
   font-size: 2.4rem;
   color: #fff;
+}
+
+.hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }
 
 /*--------------------------------------------------------------
@@ -344,6 +353,10 @@ section {
 }
 
 @media screen and (max-width: 480px) {
+  #cursor-blob {
+    display: none;
+  }
+  
   .about {
     text-align: center;
   }
@@ -383,16 +396,15 @@ section {
   transition: all 0.3s ease-in-out;
 }
 
-.portfolio #portfolio-flters li:hover, .portfolio #portfolio-flters li.filter-active {
-  color: limegreen;
-}
-
 .portfolio #portfolio-flters li:last-child {
   margin-right: 0;
 }
 
+.portfolio #portfolio-flters li:hover, .portfolio #portfolio-flters li.filter-active {
+  color: #18d26e;
+}
+
 .portfolio .portfolio-wrap {
-  transition: 0.3s;
   position: relative;
   overflow: hidden;
   border-radius: 20px;
@@ -424,7 +436,7 @@ section {
   left: 0;
   right: 0;
   top: 0;
-  bottom: -300px;
+  bottom: -100px;
   z-index: 3;
   position: absolute;
   transition: all ease-in-out 0.3s;
@@ -434,23 +446,30 @@ section {
 }
 
 .portfolio .portfolio-wrap .portfolio-links a {
-  color: #fff;
-  font-size: 28px;
-  text-align: center;
   background: rgba(0, 0, 0, .5);
-  transition: 0.3s;
-  width: 50px;
-  height: 50px;
+  width: 65px;
+  height: 65px;
+  line-height: 65px;
   border-radius: 50%;
+  transition: .3s;
+  color: #fff;
+  font-size: 2.8rem;
+  text-align: center;
+}
+
+.portfolio .portfolio-wrap .portfolio-links a:hover { 
+  transform: scale(6);
+  transition: .3s;
+}
+
+.portfolio .portfolio-wrap .portfolio-links a:hover i { 
+  opacity: 0;
+  transition: .5s;
 }
 
 .portfolio .portfolio-wrap:hover .img-fluid {
   transform: scale(1.1);
-  transition: 0.3s;
-}
-
-.portfolio .portfolio-wrap .portfolio-links a + a {
-  border-left: 1px solid #37b3ed;
+  transition: .3s;
 }
 
 .portfolio .portfolio-wrap:hover::before {
@@ -480,14 +499,6 @@ section {
 .portfolio-details .portfolio-details-slider .swiper-pagination {
   margin-top: 20px;
   position: relative;
-}
-
-.portfolio-details .portfolio-details-slider .swiper-pagination .swiper-pagination-bullet {
-  width: 12px;
-  height: 12px;
-  background-color: #fff;
-  opacity: 1;
-  border: 1px solid limegreen;
 }
 
 .portfolio-details .portfolio-details-slider .swiper-pagination .swiper-pagination-bullet-active {
