@@ -436,7 +436,7 @@ section {
   left: 0;
   right: 0;
   top: 0;
-  bottom: -100px;
+  bottom: -200px;
   z-index: 3;
   position: absolute;
   transition: all ease-in-out 0.3s;
