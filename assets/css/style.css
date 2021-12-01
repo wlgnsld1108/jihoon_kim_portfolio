@@ -20,6 +20,7 @@ body {
   font-family: 'Open Sans', sans-serif;
   color: #272829;
   background: linear-gradient(to bottom, #81ecec, #98FB98, #00FA9A, #20B2AA);
+  overflow-x: hidden;
 }
 
 a {
